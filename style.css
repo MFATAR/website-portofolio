@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Lato:wght@700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    /* width: 1920px; */
+    background-color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0005;
+}
+.navbar li {
+    float: left;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+.navbar a:hover {
+    background-color: #111;
+    transition: 0.7s;
+}
+.profile h1, .start-galery h1, .start-contact h1 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    margin-bottom: 0px;
+}
+.profile hr, .start-galery hr, .start-contact hr {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #101010;
+    width: 250px;
+}
+.profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #999;
+    border-radius: 50%;
+    background-color: #513252;
+}
+.profile h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px;
+}
+.profile h3 {
+    margin-top: 5px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 500px;
+    padding-right: 500px;
+    column-gap: 50px;
+}
+.grid-item {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+#galery {
+    margin-bottom: 50px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    width: 21%;
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+.card img {
+    max-height: 250px;
+    max-width: 400px;
+}
+.text-card {
+    padding: 2px 3px;
+}
+.cards p {
+    line-height: 1.2;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button {
+    background-color: #0005;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+button:hover {
+    background-color: #111;
+}
+.form-contact {
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 80px;
+    padding: 50px;
+    border-radius: 2%;
+    background-color: #999;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], .form-contact button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Lato', sans-serif;
+}
+input[type=submit]:hover, .form-contact button:hover {
+    background-color: #45a049;
+}
+label, textarea, input {
+    font-family: 'Lato', sans-serif;
+    resize: none;
+}
+label {
+    color: white;
+}
+.back {
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+.back a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.back a:hover {
+    color: #999
+}
+footer {
+    background-color: #111;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 100px;
+    color: white;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.social-media h1 {
+    margin: 0 0 8px 0;
+}
+.social-media hr {
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    width: 250px;
+}
+.social-media a {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    transition: 0.5s;
+}
+.social-media a:hover {
+    background-color: #888;
+}
