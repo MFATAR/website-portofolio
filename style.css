@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Lato:wght@700&display=swap');
 
-body{
+html, body{
     padding: 0;
     margin: 0;
-    /* width: 1920px; */
     background-color: #eaeaea;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth; 
 }
 .navbar {
     position: fixed;
@@ -97,9 +97,6 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 .card img {
-    /* max-height: 250px;
-    max-width: 400px; */
-    max-width: 100%;
     max-width: 100%;
 }
 .text-card {
