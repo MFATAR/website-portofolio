@@ -70,8 +70,8 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
     column-gap: 50px;
 }
 .grid-item {
@@ -97,8 +97,10 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 .card img {
-    max-height: 250px;
-    max-width: 400px;
+    /* max-height: 250px;
+    max-width: 400px; */
+    max-width: 100%;
+    max-width: 100%;
 }
 .text-card {
     padding: 2px 3px;
@@ -126,8 +128,8 @@ button:hover {
     background-color: #111;
 }
 .form-contact {
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 80px;
     padding: 50px;
     border-radius: 2%;
@@ -163,6 +165,11 @@ label, textarea, input {
 }
 label {
     color: white;
+}
+.container-direct {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px;
 }
 .back {
     text-align: center;
